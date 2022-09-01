@@ -186,8 +186,7 @@ sample_size(m,n, theta, mu, sigma, tau, n1, n21, n22, p1, p2, p3,a)
 
 
 
-
-#scenario 1
+###################### Scenario 1
 delta1_group <- seq(0.01,0.66,0.01) 
 delta2_group <- 50*delta1_group
 fwer1 <- rep(0,length(delta2_group))
@@ -229,7 +228,7 @@ plot(delta2_group, N, xlab = "Increase in mean value ",ylab = "Sample size")
 
 
 
-######################scenario 2
+###################### Scenario 2
 
 # At phase 2:
 theta_0 <- c(0.33,0.33,0.33,0.33,0.33,0.33)
